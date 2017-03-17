@@ -6797,3 +6797,7 @@ button.close {
   padding-left:30px !important;
   position: relative;
 }
+
+header {
+  background-image: url(../images/header.jpg);
+}

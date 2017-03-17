@@ -121,7 +121,7 @@ var chatMessages = $("<div id='messages'></div>");
  
 // chatBar.append(chatInput, chatSend);
 
-var chatTitle = $("<a href= https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C1CHBF_enUS730US730&ion=1&espv=2&ie=UTF-8#q=" + $(this).attr('id') + "&*</a>" + "<h3>"+ $(this).attr('id') + "</h3>");
+var chatTitle = $("<a href= https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C1CHBF_enUS730US730&ion=1&espv=2&ie=UTF-8#q=" + $(this).attr('id') + "&*" "</a>" + "<h3>"+ $(this).attr('id') + "</h3>");
 chatDiv.append(chatMessages, chatTitle, "<hr>");
 $('#display').append(chatDiv);
 

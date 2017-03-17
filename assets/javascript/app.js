@@ -5,6 +5,8 @@
 //all chatData.push() sent to firebase and display
 //empty chatDiv before new button click to display new content each time
 
+
+
 // Initialize Firebase
  var config = {
    apiKey: "AIzaSyA4ZMBx8F2AEszwQk4M-GiGaOnjP6QMBsY",
@@ -121,7 +123,7 @@ var chatMessages = $("<div id='messages'></div>");
  
 // chatBar.append(chatInput, chatSend);
 
-var chatTitle = $("<a href= https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C1CHBF_enUS730US730&ion=1&espv=2&ie=UTF-8#q=" + $(this).attr('id') + "&*" "</a>" + "<h3>"+ $(this).attr('id') + "</h3>");
+var chatTitle = $("<a href= https://www.google.com/webhp?sourceid=chrome-instant&rlz=1C1CHBF_enUS730US730&ion=1&espv=2&ie=UTF-8#q=" + $(this).attr('id') + "&*</a>" + "<h3>"+ $(this).attr('id') + "</h3>");
 chatDiv.append(chatMessages, chatTitle, "<hr>");
 $('#display').append(chatDiv);
 
